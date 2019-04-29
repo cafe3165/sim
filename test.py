@@ -83,11 +83,12 @@ for i in dataMat:
     for j in kk:
         p=p+j
 
-sentence1="Turn on the light"
+sentence1="turn on the light"
+sentence2="turn off the light"
 ss1=sentence1.split(" ")
 print(ss1)
 index1=[]
-for i in ss1:
+for i in ss1 :
     count=0
     for j in words:
         count=count+1
@@ -99,17 +100,14 @@ for i in ss1:
 index1.sort()
 print(index1)
 
-# for q in index1:
 
-    # count2=0
+x=[]
+for i in range(50):
+    x.append(0.0)
+y=np.array(x)
+for i in index1:
+    y=y+pp[i]
+print(y)
 
-# for i in dataMat:
-#     k=map(float,i[1:])
-#     kk=list(k)
-#     pp.append(kk)
-# print(pp)
 
-# prod = map(lambda (a,b):a*b, zip(pp[0],pp[1]))
 
-c = np.array(pp[0]) + np.array(pp[1])
-print(c)
