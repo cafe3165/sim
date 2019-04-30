@@ -73,7 +73,6 @@ for line in file2.readlines():
 
 # print(dataMat)
 words=[]
-file22 = open('50ddd.txt','w',encoding='utf-8')
 for i in dataMat:
     p=0.0
     words.append(i[0])
@@ -106,7 +105,10 @@ for i in range(50):
     x.append(0.0)
 y=np.array(x)
 for i in index1:
-    y=y+pp[i]
+    y = y + np.array(pp[i-1])
+    print(np.array(pp[i-1]),"------")
+    print(y)
+
 print(y)
 
 

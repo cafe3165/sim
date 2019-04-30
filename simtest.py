@@ -16,9 +16,9 @@ def calculateVec(sentence,words,d,Vecs):
         x.append(0.0)
     y=np.array(x)
     for i in index:
-        y=y+Vecs[i]
+        y=y+Vecs[i-1]
     # print(y)
-    return y
+    return y/len(s)
 def cos_sim(vector_a, vector_b):
     """
     计算两个向量之间的余弦相似度
@@ -56,6 +56,9 @@ sentence2="what is the temperature in the living room"
 
 v1=calculateVec(sentence1,words,len(vecMat[0])-1,Vecs)
 v2=calculateVec(sentence2,words,len(vecMat[0])-1,Vecs)
+
+print(v1)
+print(v2)
 
 print(cos_sim(v1,v2))
 
