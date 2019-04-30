@@ -83,9 +83,10 @@ for i in dataMat:
         p=p+j
 
 sentence1="turn on the light"
-sentence2="turn off the light"
+sentence2="what is the temperature in the living room"
 ss1=sentence1.split(" ")
-print(ss1)
+ss2=sentence2.split(" ")
+# print(ss1)
 index1=[]
 for i in ss1 :
     count=0

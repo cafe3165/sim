@@ -52,7 +52,12 @@ for i in vecMat:
     Vecs.append(vecs)
 
 sentence1="turn on the light"
-sentence2="what is the temperature in the living room"
+# sentence2="what is the temperature in the living room"
+# sentence2="turn on the light"
+# sentence2="turn on the air conditioner"
+# sentence2="open the light"
+sentence2="shut the light down"
+
 
 v1=calculateVec(sentence1,words,len(vecMat[0])-1,Vecs)
 v2=calculateVec(sentence2,words,len(vecMat[0])-1,Vecs)
