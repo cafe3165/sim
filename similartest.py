@@ -1,4 +1,5 @@
 import Similar
+import rwfile
 # sentence1="raise the temperature of sitting room"
 sentence1="enhance the temperature of sitting room"
 
@@ -18,15 +19,22 @@ for i in vecs:
 print(result)
 max=result[0]
 count=0
-
+rank=[]
+rank.append(1)
 for i in result:
     count=count+1
     if i>max:
         max=i
         f=count
+        rank.append(f)
     else:
         continue
 print(f)
+print(rank[-3:])
+
+sentenceList=rwfile.readfile()
+for i in rank[-3:]:
+    print(sentenceList[i])
     # print(c)
     # print(curLine)
 
