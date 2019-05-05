@@ -15,7 +15,15 @@ def readfile():
         sentencelist2.append(curLine)
 
     sentencelist = sentencelist1 + sentencelist2
-    return sentencelist2
+    return sentencelist
+
+def readfile2(pathname):
+    sentencelist=[]
+    file = open(pathname, 'r', encoding='utf-8')
+    for line in file.readlines():
+        curLine = line.strip()
+        sentencelist.append(curLine)
+    return sentencelist
 
 def writefile(sen2vec):
     file=open(r'sen2vec.txt','w')
@@ -40,3 +48,8 @@ def writefile(sen2vec):
     for k in ff:
         print(k)
         file.write(str(k).replace('[','').replace(']','').replace(',','')+ "\n")
+
+def writefile2(noList):
+    file = open(r'result.txt', 'w')
+    for i in noList:
+        file.write(str(i).replace('[', '').replace(']', '').replace(',', '') + "\n")

@@ -4,12 +4,12 @@ import rwfile
 sentence1="enhance the temperature of sitting room"
 
 
-file=open(r"sen2vec.txt",'r',encoding='utf-8')
+file=open(r"sen2vec3.txt",'r',encoding='utf-8')
 vecs=[]
 for line in file.readlines():
     curLine = line.strip().split(" ")
     vecs.append(curLine[:])
-v1= Similar.calculate("100d.txt",sentence1).tolist()
+v1= Similar.calculate("50d.txt",sentence1).tolist()
 # print(v1)
 result=[]
 for i in vecs:
