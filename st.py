@@ -25,7 +25,8 @@ def returnSimilarSentence(sentence,filepath):
     for i in sentenSortedSet[-3:]:
         for j in range(len(sentenDict)):
             if i == sentenDict[j + 1]:
-                # print(sentenceList[j + 1], round(i, 4))
+                print(sentenceList[j + 1], round(i, 4))
+
                 returnDict[j+1]=i
                 break
     return returnDict

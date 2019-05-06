@@ -1,8 +1,4 @@
-#!/usr/bin/python3
 import numpy as np
-import numpytest
-
-
 def calculateVec(sentence, words, d, Vecs):
     s = sentence.split(" ")
     index = []
@@ -39,7 +35,6 @@ def cos_sim(vector_a, vector_b):
     sim = 0.5 + 0.5 * cos
     return sim
 
-
 vecfile = open('50d.txt', 'r', encoding='utf-8')
 
 vecMat = []
@@ -56,15 +51,8 @@ for i in vecMat:
     vec = map(float, i[1:])
     vecs = list(vec)
     Vecs.append(vecs)
-
-# sentence1 = "turn on the light"
-# # sentence2="what is the temperature in the living room"
-# # sentence2="turn on the light"
-# # sentence2="turn on the air conditioner"
-# # sentence2="open the light"
-# sentence2 = "shut the light down"
-sentence1="turn up the air conditioner in sitting room"
-sentence2="what is the status of the smart light"
+sentence1="turn off the light in sitting room"
+sentence2="monitor the temperature of sitting room"
 
 v1 = calculateVec(sentence1, words, len(vecMat[0]) - 1, Vecs)
 v2 = calculateVec(sentence2, words, len(vecMat[0]) - 1, Vecs)

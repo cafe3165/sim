@@ -82,8 +82,10 @@ for i in dataMat:
     for j in kk:
         p=p+j
 
-sentence1="turn on the light"
-sentence2="what is the temperature in the living room"
+# sentence1="turn on the light"
+# sentence2="what is the temperature in the living room"
+sentence1="turn up the air conditioner in sitting room"
+sentence2="what is the status of the smart light"
 ss1=sentence1.split(" ")
 ss2=sentence2.split(" ")
 # print(ss1)
