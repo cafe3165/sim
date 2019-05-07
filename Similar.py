@@ -8,16 +8,21 @@ def calculateVec(sentence, words, d, vecs):
     for i in s:
         count = 0
         for j in words:
-            count = count + 1
+            count +=1
             if i == j:
                 index.append(count)
     index.sort()
+    print(index)
+    # for i in index:
+    #     print(words[i-1])
     x = []
 
     for i in range(d):
         x.append(0.0)
     y = np.array(x)
     for i in index:
+        # print(y)
+        # print(vecs[i-1])
         y = y + vecs[i - 1]
     # print(y)
     return y
@@ -54,6 +59,11 @@ def calculate(dname,sentence):
         vec = map(float, i[1:])
         vecs = list(vec)
         Vecs.append(vecs)
+
+    # for i in Vecs:
+    #     print(i)
+    # print(words)
+    # print(len(vecMat[0]) - 1)
     v=calculateVec(sentence, words, len(vecMat[0]) - 1, Vecs)
     return v
 
