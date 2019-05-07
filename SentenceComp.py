@@ -13,7 +13,7 @@ orderList=[]
 mapList=[]
 print(sentenceList)
 for i in sentenceList:
-    L = st.returnSimilarSentence(i, pathname2,-5)
+    L = st.returnSimilarSentence(i, pathname2,-10)
     print(list(L.keys()))
     orderList.append(list(L.keys()))
     mapList.append(L)
