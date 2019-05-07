@@ -37,28 +37,25 @@ import st
 # print(list(L.keys()))
 # print(L.values())
 
-sl=rwfile.readfile()
+sl = rwfile.readfile()
 print(sl)
 
-filer=open('result5.txt', 'r', encoding='utf-8')
-file2=open('command4.txt', 'r', encoding='utf-8')
-cl=[]
-for line in file2.readlines():
-    curLine = line.strip()
-    cl.append(curLine)
-    print(curLine)
-l1=[]
-l2=[]
+filer = open('result7.txt', 'r', encoding='utf-8')
+# file2=open('command4.txt', 'r', encoding='utf-8')
+cl = rwfile.readfile2('command4.txt')
+print(cl)
+l1 = []
+l2 = []
 for line in filer.readlines():
     curLine = line.strip().split(" ")
-    l2.append(list(map(int,curLine)))
+    l2.append(list(map(int, curLine)))
     # print(list(map(int,curLine)))
 print(l2)
-index=0
-filetest=open(r'com.txt','w')
-filetest2=open(r'sim5.txt','r')
+index = 0
+filetest = open(r'com55.txt', 'w')
+filetest2 = open(r'sim7.txt', 'r')
 
-ll=[]
+ll = []
 for line in filetest2.readlines():
     curLine = line.strip().split(" ")
     ll.append(list(map(float, curLine)))
@@ -83,7 +80,4 @@ for i in l2:
     print('\n')
     filetest.write('\n')
     index+=1
-
-
-
-
+#

@@ -54,8 +54,8 @@ def writefile(sen2vec):
     file.close()
 
 def writefile2(noList):
-    file = open(r'result5.txt', 'w')
-    file2 = open(r'sim5.txt', 'w')
+    file = open(r'result7.txt', 'w')
+    file2 = open(r'sim7.txt', 'w')
     print(noList)
     for i in noList:
         file.write(str(list(i.keys())).replace('[', '').replace(']', '').replace(',', '') + "\n")
