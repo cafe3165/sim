@@ -3,7 +3,7 @@ turn off the light in bedroom
 turn off the light in balcony
 turn up the air conditioner in sitting room
 turn up the air conditioner in bedroom
-turn up the air Conditioner in Balcony
+turn up the air conditioner in balcony
 set brightness of light of bedroom to 0
 set brightness of light of bedroom to 0
 increase the brightness of light in bedroom
@@ -11,7 +11,7 @@ reduce the temperature of air conditioner in balcony
 turn on the light in the balcony
 increase the humidity of the water pump in the balcony
 reduce the brightness of the light in the sitting room
-reduce the PM25 of the PM25 Monitor in the bedroom
+reduce the pm2.5 of the pm2.5 monitor in the bedroom
 turn down the air conditioner of the sitting room to 10 degrees
 turn off the light in the sitting room
 increase the brightness of the light in the bedroom
@@ -31,7 +31,7 @@ reduce the brightness of light in bedroom and sitting room
 turn on the light in the sitting room
 increase the brightness in the sitting room
 turn on the air purifier in the bedroom
-reduce the PM25 in the bedroom
+reduce the pm2.5 in the bedroom
 turn on flower monitor in the balcony
 turn off the water pump in the balcony
 turn off the air conditioner in the sitting room
@@ -41,10 +41,10 @@ turn up the air conditioning in the living room by three degrees
 increase the humidity of my flower
 reduce the brightness of the bedroom now
 what 's the temperature of sitting room
-reduce PM25 now
+reduce pm2.5 now
 shut the water pump
 what's the brightness of balcony
-turn on the Air Purifier 
+turn on the air purifier 
 switch off the light
 raise the temperature now
 help me turn on the air conditioner
@@ -61,7 +61,7 @@ purify the air of the bedroom right now
 turn off the light in the bedroom
 reduce the humidity of the water pump in the balcony
 assign the brightness of the light in the Bedroom
-reduce the PM25 of the PM25 monitor in the sitting room
+reduce the pm2.5 of the pm2.5 monitor in the sitting room
 increase the air conditioner of the sitting room to 28 degrees
 turn off the light in the bedroom
 turn on the air purifier in the bedroom
