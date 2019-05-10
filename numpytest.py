@@ -52,7 +52,7 @@ for line in filer.readlines():
     # print(list(map(int,curLine)))
 print(l2)
 index = 0
-filetest = open(r'com33.txt', 'w')
+filetest = open(r'com09.txt', 'w')
 filetest2 = open(r'sim6.txt', 'r')
 
 ll = []

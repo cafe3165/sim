@@ -4,7 +4,7 @@ import datetime
 
 sentenceList =[]
 pathname1="command4.txt"
-pathname2="sen2vec3.txt"
+pathname2="sen2vec09.txt"
 
 nowTime=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')#现在
 print(nowTime)

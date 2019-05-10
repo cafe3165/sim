@@ -20,7 +20,7 @@ def cut_words_weights(content):
     # 设置停用词
     # jieba.analyse.set_stop_words('path_of_stopwords')
     tags = jieba.analyse.extract_tags(content, topK=20, withWeight=True)
-    print(tags)
+    # print(tags)
     tags = [(keyword, int(weight*10)) for keyword, weight in tags]
     return tags
 
@@ -63,7 +63,7 @@ def cal_hamming_distance(hash_file1, hash_file2):
     for i in range(len(hash_file1)):
         if hash_file1[i] != hash_file2[i]:
             hamming_dis += 1
-    print("海明距离：", hamming_dis)
+    # print("海明距离：", hamming_dis)
     return hamming_dis
 
 
@@ -84,6 +84,8 @@ def run_simhash(str1, str2):
 
 if __name__ == "__main__":
 
-    run_simhash("turn off the light in sitting room", "turn off the air conditioner")
+    print(run_simhash("turn off the light in sitting room", "turn off the smart light in the sitting room"))
+
+    # print(run_simhash("reduce the brightness of the light in the sitting room", "reduce the brightness of sitting room"))
 
 

@@ -2,8 +2,8 @@ import numpy as np
 
 
 def readfile():
-    pathname1 = "E:/ideaworkspace/littletest/vbd2.txt"
-    pathname2 = "E:/ideaworkspace/littletest/vbc2.txt"
+    pathname1 = "E:/ideaworkspace/littletest/vbd3.txt"
+    pathname2 = "E:/ideaworkspace/littletest/vbc3.txt"
     file1 = open(pathname1, 'r', encoding='utf-8')
     file2 = open(pathname2, 'r', encoding='utf-8')
     sentencelist1 = []
@@ -29,7 +29,7 @@ def readfile2(pathname):
 
 
 def writefile(sen2vec):
-    file = open(r'newsen2vec.txt', 'w')
+    file = open(r'sen2vec09.txt', 'w')
     # print(sen2vec.tolist())
     # print(type(sen2vec))
     # print(type(sen2vec[0]))

@@ -51,8 +51,8 @@ for i in vecMat:
     vec = map(float, i[1:])
     vecs = list(vec)
     Vecs.append(vecs)
-sentence1="turn off the air conditioner in the sitting room"
-sentence2="turn off the air conditioner"
+sentence1="turn off the light in sitting room"
+sentence2="turn the light in sitting room off"
 
 v1 = calculateVec(sentence1, words, len(vecMat[0]) - 1, Vecs)
 v2 = calculateVec(sentence2, words, len(vecMat[0]) - 1, Vecs)
