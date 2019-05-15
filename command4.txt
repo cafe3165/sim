@@ -10,11 +10,11 @@ increase the brightness in the sitting room
 turn off the air conditioner in the sitting room
 turn up the air conditioning in the living room by three degrees
 what 's the temperature of sitting room
-reduce PM2.5 now
-turn on the air purifier
-switch off the light
-raise the temperature now
-help me turn on the air conditioner
+reduce PM2.5 in the sitting roomnow
+turn on the air purifier in the sitting room
+switch off the light in the sitting room
+raise the temperature in the sitting room now
+help me turn on the air conditioner in the sitting room
 turn off the air conditioner in the sitting room
 set the temperature of the sitting room to 28 degrees
 reduce the air humidity of the sitting room

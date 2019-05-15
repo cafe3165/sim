@@ -40,9 +40,9 @@ import st
 sl = rwfile.readfile()
 print(sl)
 
-filer = open('result6.txt', 'r', encoding='utf-8')
+filer = open('result15.txt', 'r', encoding='utf-8')
 # file2=open('command4.txt', 'r', encoding='utf-8')
-cl = rwfile.readfile2('command4.txt')
+cl = rwfile.readfile2('rulecommand.txt')
 print(cl)
 l1 = []
 l2 = []
@@ -52,8 +52,8 @@ for line in filer.readlines():
     # print(list(map(int,curLine)))
 print(l2)
 index = 0
-filetest = open(r'com09.txt', 'w')
-filetest2 = open(r'sim6.txt', 'r')
+filetest = open(r'com15.txt', 'w')
+filetest2 = open(r'sim15.txt', 'r')
 
 ll = []
 for line in filetest2.readlines():

@@ -89,12 +89,12 @@ increase the temperature of sitting room 0.9227972142106259
 reduce the temperature of sitting room 0.9297894842146058
 reduce the pm2.5 of sitting room 0.9323555625372033
 
-turn on the air purifier
-turn on the air purifier in the sitting room 0.980695870451773
-is the air conditioner off 0.98422166204024
-is the air conditioner on 0.984894231329512
-is the air purifier on 0.9916112582650468
-is the air purifier off 0.9916934065198696
+turn on the air purifier in the sitting room
+turn off the air conditioner in the sitting room 0.9948222116673178
+open the air purifier in the sitting room 0.9957259156040229
+turn on the air conditioner in the sitting room 0.9971483267636051
+turn off the air purifier in the sitting room 0.9978202011961796
+turn on the air purifier in the sitting room 0.9999999999999414
 
 switch off the light
 shut down the smart light in the sitting room 0.9717979434293837
