@@ -2,9 +2,11 @@ import numpy as np
 
 
 def readfile():
-    pathname1 = "E:/ideaworkspace/littletest/vbd3.txt"
-    pathname2 = "E:/ideaworkspace/littletest/vbc3.txt"
-    pathname3 = "E:/ideaworkspace/littletest/ta2.txt"
+    # pathname1 = "E:/ideaworkspace/littletest/vbd3.txt"
+    pathname = "D:/idea_workspace/littletest/"
+    pathname1 = pathname+"vbd3.txt"
+    pathname2 = pathname+"vbc3.txt"
+    pathname3 = pathname+"ta2.txt"
     file1 = open(pathname1, 'r', encoding='utf-8')
     file2 = open(pathname2, 'r', encoding='utf-8')
     file3 = open(pathname3, 'r', encoding='utf-8')
@@ -63,8 +65,8 @@ def writefile(sen2vec):
 
 
 def writefile2(noList):
-    file = open(r'result15.txt', 'w')
-    file2 = open(r'sim15.txt', 'w')
+    file = open(r'result0604.txt', 'w')
+    file2 = open(r'sim0604.txt', 'w')
     print(noList)
     for i in noList:
         file.write(str(list(i.keys())).replace('[', '').replace(']', '').replace(',', '') + "\n")
